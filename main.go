@@ -9,6 +9,6 @@ import (
 
 func main() {
 	app.Run("CodeView", func(w *unison.Window) {
-		CodeView.New().Layout(w.Content())
+		Codeview.New().Layout(w.Content())
 	})
 }
